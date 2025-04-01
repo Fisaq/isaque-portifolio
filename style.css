@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2C2C2C;
+    color: #ffffff;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px 15px;
+    gap: 70rem;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.secao{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 70%;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.secao:hover{
+    color: #FFDE59;
+}
+
+.container-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.conteudo-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+.image-nome{
+    text-align: center;
+}
+
+.image-nome img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container-nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px
+}
+
+.texto{
+    text-align: center;
+}
+
+.texto p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 70%;
+    padding-top: 3px;
+}
+
+.colchete{
+    font-family: 'Robot Slab', sans-serif;
+    font-size: 60px;
+    color: #FFDE59;
+    font-weight: 50%;
+}
+
+.readme{
+    background-color: #403F3F;
+    padding: 2rem 2rem;
+    font-family: 'Roboto Slab', serif;
+    border-style:solid;
+    border-color: #909090;
+}
+
+.readme h1{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.readme p{
+    font-size: 18px;
+    padding-bottom: 2rem;
+    text-align: justify;
+}
+
+.readme span{
+    font-weight: bold;
+    color: #FFDE59;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-readme{
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #909090;
+    padding: 10px 15px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.button-readme:hover{
+    opacity: 80%;
+}
+
+.container-projetos{
+    padding-top: 2rem;
+    padding-left: 8rem;
+}
+
+.conteudo-projetos h1{
+     font-family: 'Roboto Slab', serif;
+}
