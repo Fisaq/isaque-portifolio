@@ -24,7 +24,7 @@ const coresTecnologias = {
     'MYSQL':'#1DE8BF'
 };
 
-containerListaProjetos = document.getElementById('projetos');
+containerListaProjetos = document.getElementById('lista-projetos');
 
 projetos.forEach(projeto =>{
     const elementoProjeto = document.createElement('div');
@@ -36,11 +36,11 @@ projetos.forEach(projeto =>{
             <p><strong>${projeto.statusProjeto}<strong></p>
         </div>
         <p>${projeto.descricao}</p>
-        <div class='tecnologia'>
+        <div class='tecnologias'>
             ${projeto.tecnologias.map(tec => `
-                    <span class='tecnologia' style='background-color: ${projeto.coresTecnologias[tec] || '#ccc'}>
+                    <span class='tecnologia' style='background-color: ${coresTecnologias[tec] || '#ccc'}>
                     ● ${tec}
-                    </span>`.join(''))}
+                    </span>`).join('')}
         </div>`;
 
     containerListaProjetos.appendChild(elementoProjeto);

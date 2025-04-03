@@ -139,8 +139,59 @@ header ul{
 .container-projetos{
     padding-top: 2rem;
     padding-left: 8rem;
+    padding-bottom: 2rem;
 }
 
 .conteudo-projetos h1{
      font-family: 'Roboto Slab', serif;
+}
+
+.container-lista-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projeto{
+    background-color: aqua;
+}
+
+.projeto-header{
+    display: flex;
+    gap: 3rem;
+}
+
+.contato{
+    padding: 5rem 8rem;
+}
+
+.conteudo-contato{
+    display: flex;
+    gap:5rem;
+}
+
+.conteudo-contato h1{
+    font-family: 'Roboto Slab', serif;
+}
+
+.contato-whatsapp{
+    padding-top: 5rem;
+    background-color: red;
+}
+
+.contato-redesocial{
+    padding: 5rem 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 5rem;
+    background-color: #909090;
+    border-radius: 10px;
+}
+
+.social{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
 }
