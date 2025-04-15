@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: inherit;   
+    text-decoration: none;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #525252;
+    width: 85%;
+    height: 55px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    opacity: 90%;
+    gap: 55%;
+}
+
+header img{
+    width: 15%;
+    object-fit: cover;
+    padding-left: 2%;
+    padding-top: 2px;
+}
+
+header ul{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+header li:hover{
+    color: #ff884d
+}
+
+main{
+    text-align: center;
+}
+.section-home{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.section-home h1{
+    font-size: 72px;
+    opacity: 70%
+}
+
+.section-home span{
+    color: #FF914D;
+}
+
+.section-home h2{
+    font-size: 52px;
+    opacity: 70%;
+}
+
+.destaque{
+    display: inline;
+    box-decoration-break: clone;
+    background: linear-gradient(
+    to left,
+    #ff884d 0%,
+    #ff884d 90%,
+    transparent 90%
+  );
+    padding: 0 5px;
+    background-repeat: no-repeat;
+    background-size: 100% 0.5em;
+    background-position: 90% 90%;
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 5rem;
+    gap: 15px;
+}
+
+.btn-contato{
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF914D;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-contato:hover{
+    transform: scale(1.05);
+}
+
+.btn-play{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-play button{
+    background: #D9D9D9;
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-play button:hover{
+    transform: scale(1.05);
+}
+
+
+.btn-play img{
+    width: 30%;
+    height: auto;
+    padding-left: 3px;
+}
+
+.btn-play p{
+    font-weight: bold;
+    opacity: 70%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.img-scroll{
+    padding-top: 4rem;
+    width: 50px;
+}
+
+.section-sobre{
+    margin-top: 2%;
+    background-color: #F4F4F4;
+    padding: 10rem 7rem;
+}
+
+.img-perfil{
+    position: relative;
+    width: fit-content;
+}
+
+.img-perfil img{
+    position: relative;
+    width: 360px;
+    height: 360px;
+    z-index: 1;
+}
+
+.fundo-laranja{
+    background-color: #ff884d;
+    position: absolute;  
+    top: 100px;       
+    left: 20px;      
+    width: 360px;
+    height: 360px;
+    z-index: 0;
+    border-radius: 0;
+}
+
+.container-conteudo-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.container-conteudo-sobre img{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.container-textos-sobre{
+    margin-bottom: 5rem;
+    display: block;
+    text-align: left;
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+
+.container-textos-sobre h2{
+    font-size: 40px;
+    opacity: 70%;
+}
+
+.container-textos-sobre h2 span{
+    color: #ff884d;
+}
+
+.container-textos-sobre h3{
+    opacity: 70%;
+    font-size: 30px;
+    padding-bottom: 2rem;
+}
+
+.lista-sobre li{
+    font-size: 20px;
+    padding-left: 2rem;
+    padding: 10px;
+}
+
+.lista-sobre li span{
+    color: #ff884d;
+}
+
+.lista-redes-sociais{
+    gap: 25px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.icone-social{
+    margin-top: 2rem;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icone-social img{
+    width: 30px;
+    height: auto;
+}
+
+.section-projetos{
+    margin-top: 2%;
+    padding: 10rem 7rem;
+}
+
+.section-projetos h1{
+    margin-bottom: 7rem;
+    font-size: 42px;
+    opacity: 70%;
+}
+
+.section-projetos span{
+    color: #FF914D;
+}
+
+.container-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projeto {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    margin: 25px;
+    overflow: hidden;
+}
+
+.img-projeto{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FF914D;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.projeto:hover .overlay {
+    height: 100%;
+}
+
+.texto-projeto{
+    white-space: nowrap; 
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);  
+}
+
+.section-skills{
+    margin-top: 2%;
+    padding: 10rem 7rem;
+    background-color: #f4f4f4;
+}
+
+.section-skills h1{
+    margin-bottom: 7rem;
+    font-size: 42px;
+    opacity: 70%;
+}
+
+.section-skills span{
+    color: #FF914D;
+}
+
+.container-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.skill{
+    background-color: #D9D9D9;
+    width: calc(20% - 15px);
+    opacity: 60%;
+    text-align: center;
+    padding: 60px 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill:hover{
+    transform: scale(1.05);
+}
+
+.skill img{
+    width: 50px;
+    height: auto;
+    filter: grayscale(100%);
+    opacity: 60%;
+}
+
+.skill p{
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer p{
+    font-size: 20px;
+}
