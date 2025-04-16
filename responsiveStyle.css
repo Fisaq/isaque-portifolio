@@ -1,0 +1,374 @@
+/* Para tablets e telas menores que 1499px */
+@media (max-width: 1499px) {
+    .projeto {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        margin: 25px;
+        overflow: hidden;
+        width: calc(30% - 15px);
+    }
+    
+    .texto-projeto{
+        font-size: 14px; 
+    }
+}
+
+/* Para tablets e telas menores que 1024px */
+@media (max-width: 1245px) {
+    header  {
+        display: none;
+    }
+
+    .section-home{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    
+    .section-home h1{
+        font-size: 62px;
+        opacity: 70%
+    }
+    
+    .section-home span{
+        color: #FF914D;
+    }
+    
+    .section-home h2{
+        font-size: 52px;
+        opacity: 70%;
+    }
+
+    .btn-contato{
+        padding: 12px 45px;
+    }
+
+    .btn-play button{
+        width: 60px;
+        height: 60px;
+    }
+
+    .img-perfil{
+        position: relative;
+        width: fit-content;
+    }
+    
+    .img-perfil img{
+        width: 360px;
+        height: 460px;
+    }
+    
+    .fundo-laranja{
+        background-color: #ff884d;
+        position: absolute;  
+        top: 100px;       
+        left: 20px;      
+        width: 360px;
+        height: 460px;
+        z-index: 0;
+        border-radius: 0;
+    }
+
+    .projeto {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        margin: 25px;
+        overflow: hidden;
+        width: calc(40% - 15px);
+    }
+    
+
+    .texto-projeto{
+        font-size: 14px; 
+    }
+}
+
+
+
+/* Para celulares até 935px */
+@media (max-width: 935px) {
+    header  {
+        display: none;
+    }
+
+    .section-home{
+        margin-top: 30%;
+        margin-bottom: 10%;
+    }
+    
+    .section-home h1{
+        font-size: 52px;
+        opacity: 70%
+    }
+    
+    .section-home span{
+        color: #FF914D;
+    }
+    
+    .section-home h2{
+        font-size: 42px;
+        opacity: 70%;
+    }
+
+    .btn-contato{
+        padding: 10px 42px;
+    }
+
+    .btn-play button{
+        width: 50px;
+        height: 50px;
+    }
+
+    .img-perfil{
+        position: relative;
+        width: fit-content;
+    }
+    
+    .img-perfil img{
+        width: 360px;
+        height: 460px;
+    }
+    
+    .fundo-laranja{
+        background-color: #ff884d;
+        position: absolute;  
+        top: 100px;       
+        left: 20px;      
+        width: 360px;
+        height: 460px;
+        z-index: 0;
+        border-radius: 0;
+    }
+
+    .texto-projeto{
+        font-size: 12px; 
+    }
+}
+
+/* Para celulares até 825px */
+@media (max-width: 825px){
+
+    .img-perfil{
+        display: none;
+    }
+    
+    .container-textos-sobre{
+        padding-left: 0;
+    }
+
+    .projeto {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        margin: 25px;
+        overflow: hidden;
+        width: calc(50% - 15px);
+    }
+}
+
+/* Para celulares até 749px */
+@media (max-width: 749px){
+
+    .section-home{
+        margin-top: 30%;
+        margin-bottom: 10%;
+    }
+    
+    .section-home h1{
+        font-size: 42px;
+        opacity: 70%
+    }
+    
+    .section-home span{
+        color: #FF914D;
+    }
+    
+    .section-home h2{
+        font-size: 32px;
+        opacity: 70%;
+    }
+
+    .btn-contato{
+        padding: 7px 35px;
+        font-size: 14px;
+    }
+
+    .btn-play button{
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn-play p{
+        font-size: 14px;
+    }
+
+    .img-perfil{
+        display: none;
+    }
+
+    .projeto {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        margin: 25px;
+        overflow: hidden;
+        width: calc(50% - 15px);
+    }
+}
+
+/* Para celulares até 360px */
+@media (max-width: 360px){
+
+    .section-home{
+        margin-top: 55%;
+        margin-bottom: 10%;
+    }
+    
+    .section-home h1{
+        font-size: 40px;
+        opacity: 70%;
+        padding-bottom: 5px;
+    }
+    
+    .section-home span{
+        color: #FF914D;
+    }
+    
+    .section-home h2{
+        font-size: 30px;
+        opacity: 70%;
+    }
+
+    .container-buttons{
+        display: block;
+        text-align: center;
+    }
+
+    .btn-contato{
+        padding: 5px 50px;
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+
+    .btn-play{
+        display: felx;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-play button{
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn-play p{
+        font-size: 14px;
+    }
+
+    .img-scroll{
+        padding-top: 2rem;
+        width: 30px;
+        animation: pular 1s infinite;
+    }
+
+    .container-textos-sobre h2{
+        font-size: 30px;
+        opacity: 70%;
+    }
+
+    .section-sobre{
+        padding: 5rem 5rem;
+    }
+
+    .container-textos-sobre{
+        text-align: center;
+    }
+    
+    
+    .container-textos-sobre h2 span{
+        color: #ff884d;
+    }
+    
+    .container-textos-sobre h3{
+        opacity: 70%;
+        font-size: 25px;
+        padding-bottom: 5rem;
+    }
+    
+    
+    .lista-sobre li{
+        font-size: 16px;
+        text-align: center;
+        list-style: none;
+    }
+    
+    .lista-sobre li span{
+        color: #ff884d;
+    }
+    
+    .lista-redes-sociais{
+        gap: 25px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5rem;
+    }
+    
+    .icone-social{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .icone-social img{
+        width: 20px;
+        height: auto;
+    }
+
+    .section-projetos h1{
+        margin-bottom: 7rem;
+        font-size: 32px;
+        opacity: 70%;
+    }
+    
+
+    .projeto {
+        width: calc(50%);
+        width: 450px;
+        height: 560px;
+    }
+
+    .img-projeto{
+        width: 450px;
+        height: 560px;
+        display: block;
+    }
+
+    .section-skills h1{
+        margin-bottom: 7rem;
+        font-size: 32px;
+        opacity: 70%;
+        text-align: center;
+    }
+
+    .skill{
+        width: calc(50% - 15px);
+        padding: 80px 60px;
+    }
+
+    .skill img{
+        width: 30px;
+        height: auto;
+        filter: grayscale(100%);
+        opacity: 60%;
+    }
+
+    .skill p{
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        opacity: 70%;
+    }
+    
+}
