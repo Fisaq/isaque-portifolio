@@ -370,5 +370,10 @@
         text-align: center;
         opacity: 70%;
     }
+
+    footer p{
+        text-align: center;
+        font-size: 12px;
+    }
     
 }
