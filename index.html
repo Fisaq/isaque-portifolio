@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="responsiveStyle.css"> -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900" rel="stylesheet">
@@ -12,12 +14,18 @@
 <body>
     <header>
         <img src="/assets/imgs/logo.png" alt="logo">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-        </ul>
+
+        <!-- <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button> -->
+
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+            </ul>
+        </nav>
+        
     </header>
 
     <main>
@@ -29,9 +37,9 @@
             </div>
 
             <div class="container-buttons">
-                <button class="btn-contato">Fale comigo!</button>
+                <button class="btn-contato"><a href="https://api.whatsapp.com/send/?phone=5527999418448&text&type=phone_number&app_absent=0">Fale comigo!</a></button>
                 <div class="btn-play">
-                    <button><a href="#projetos"></a><img src="/assets/icons/icon_play.png" alt="Icone de Play"></button>
+                    <button><a href="#projetos"><img src="/assets/icons/icon_play.png" alt="Icone de Play"></a></button>
                     <p>Conheça <br>meu trabalho!</p>
                 </div>
             </div>
@@ -60,22 +68,22 @@
                         <ul class="lista-redes-sociais">
                             <li>
                                 <div class="icone-social">
-                                    <img src="assets/icons/linkedin.png" alt="Ícone Linkedin">
+                                    <a href="https://linkedin.com/in/fisaq" target="_blank"><img src="assets/icons/linkedin.png" alt="Ícone Linkedin"></a>
                                 </div>
                             </li>
                             <li>
                                 <div class="icone-social">
-                                    <img src="assets/icons/github.png" alt="Ícone GitHub">
+                                    <a href="https://github.com/fisaq" target="_blank"><img src="assets/icons/github.png" alt="Ícone GitHub"></a>
                                 </div>
                             </li>
                             <li>
                                 <div class="icone-social">
-                                    <img src="assets/icons/instagram.png" alt="Ícone Instagram">
+                                    <a href="https://istagram.com/fisaq_" target="_blank"><img src="assets/icons/instagram.png" alt="Ícone Instagram"></a>
                                 </div>
                             </li>
                             <li>
                                 <div class="icone-social">
-                                    <img src="assets/icons/email.png" alt="Ícone Email">
+                                    <a href="mailto:isaqueferreira15@outlook.com" target="_blank"><img src="assets/icons/email.png" alt="Ícone Email"></a>
                                 </div>
                             </li>
                         </ul>
@@ -99,7 +107,12 @@
                             Lorem ipsum dolor<br> sit amet consectetur <br> adipisicing elit. <br> 
                             Aperiam quibusdam <br> in tempora delectus <br> ad incidunt qui beatae, <br>
                             architecto corporis <br> praesentium sequi <br> optio natus soluta. <br> 
-                            Sint officia iusto <br> sed eius accusamus!</div>
+                            Sint officia iusto <br> sed eius accusamus!
+                            <div class="button-links-projetos">
+                                <button class="button-git"><img src="./assets/icons/github.png" alt="Icone Github"></button>
+                                <button class="button-prod"><img src="./assets/icons/link_icon.png" alt="Icone Link Site"></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -110,7 +123,12 @@
                             Lorem ipsum dolor<br> sit amet consectetur <br> adipisicing elit. <br> 
                             Aperiam quibusdam <br> in tempora delectus <br> ad incidunt qui beatae, <br>
                             architecto corporis <br> praesentium sequi <br> optio natus soluta. <br> 
-                            Sint officia iusto <br> sed eius accusamus!</div>
+                            Sint officia iusto <br> sed eius accusamus!
+                            <div class="button-links-projetos">
+                                <button class="button-git"><img src="./assets/icons/github.png" alt="Icone Github"></button>
+                                <button class="button-prod"><img src="./assets/icons/link_icon.png" alt="Icone Link Site"></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -121,7 +139,12 @@
                             Lorem ipsum dolor<br> sit amet consectetur <br> adipisicing elit. <br> 
                             Aperiam quibusdam <br> in tempora delectus <br> ad incidunt qui beatae, <br>
                             architecto corporis <br> praesentium sequi <br> optio natus soluta. <br> 
-                            Sint officia iusto <br> sed eius accusamus!</div>
+                            Sint officia iusto <br> sed eius accusamus!
+                            <div class="button-links-projetos">
+                                <button class="button-git"><img src="./assets/icons/github.png" alt="Icone Github"></button>
+                                <button class="button-prod"><img src="./assets/icons/link_icon.png" alt="Icone Link Site"></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -132,7 +155,12 @@
                             Lorem ipsum dolor<br> sit amet consectetur <br> adipisicing elit. <br> 
                             Aperiam quibusdam <br> in tempora delectus <br> ad incidunt qui beatae, <br>
                             architecto corporis <br> praesentium sequi <br> optio natus soluta. <br> 
-                            Sint officia iusto <br> sed eius accusamus!</div>
+                            Sint officia iusto <br> sed eius accusamus!
+                            <div class="button-links-projetos">
+                                <button class="button-git"><img src="./assets/icons/github.png" alt="Icone Github"></button>
+                                <button class="button-prod"><img src="./assets/icons/link_icon.png" alt="Icone Link Site"></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
@@ -196,5 +224,7 @@
     <footer>
         <p>Copyright © 2025 por Isaque Ferreira. Todos os direitos reservados.</p>
     </footer>
+
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>
