@@ -1,5 +1,14 @@
 /* Para tablets e telas menores que 1499px */
 @media (max-width: 1430px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        text-align: center;
+    }
     
     header{
         display: none;
@@ -157,6 +166,11 @@
 /* Para celulares até 360px */
 @media (max-width: 412px){
 
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
     header{
         display: none;
     }
@@ -209,6 +223,15 @@
         margin-top: 0;
         background-color: #F4F4F4;
         padding: 5rem 7rem;
+    }
+
+    .container-textos-sobre h2{
+        font-size: 40px;
+    }
+
+    .container-textos-sobre h3{
+        padding-top: 0.5rem;
+        font-size: 20px;
     }
     
     .container-conteudo-sobre{
@@ -271,14 +294,19 @@
     }
 
     .section-skills{
-        margin-top: 0;
-        padding: 5em 5rem;
+        display: block;
+        text-align: center;
+    }
+
+    .section-skills h1{
+        text-align: center;
+        font-size: 40px;
+
     }
     
     .container-skills{
         display: block;
         text-align: center;
-        margin-right: 15%;
     }
     
     .skill{
