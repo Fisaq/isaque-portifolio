@@ -1,78 +1,65 @@
-/* Para tablets e telas menores que 1499px */
-@media (max-width: 1430px) {
+@media (max-width: 1024px){
 
-    *{
-        padding: 0;
-        margin: 0;
-    }
-
-    body{
-        text-align: center;
-    }
-    
     header{
         display: none;
     }
-    
+
     .section-home{
-        margin-top: 50%;
-        margin-bottom: 30%;
-        align-items: center;
+        display: block;
+        text-align: center;
+        margin-top: 40rem;
+        margin-bottom: 20rem;
     }
     
     .section-home h1{
-        font-size: 72px;
+        font-size: 65px;
+        opacity: 70%
     }
     
+    .section-home span{
+        color: #FF914D;
+    }
+
     .section-home h2{
         font-size: 60px;
     }
-
-    .container-buttons{
-        display: flex;
-    }
     
     .btn-contato{
-        padding: 10px 50px;
-        font-size: 18px;
+        padding: 15px 50px;
     }
     
     .btn-play button{
-        margin-left: 2rem;
-        margin-right: 0.5rem;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .btn-play img{
+        width: 30%;
     }
     
     .btn-play p{
-        margin-top: 0;
-        font-size: 24px;
-        text-align: left;
+        font-size: 15px;
     }
     
     .img-scroll{
-        margin-top: 10%;
         width: 50px;
     }
     
     .section-sobre{
-        margin-top: 0;
-        background-color: #F4F4F4;
-        padding: 10rem 5rem;
+        display: block;
+        text-align: center;
     }
 
-    .container-textos-sobre h2{
-        font-size: 50px;
+    .section-sobre{
+        padding-top: 5rem;
+        padding-bottom: 0;
     }
 
-    .container-textos-sobre h3{
-        font-size: 45px;
+    .container-textos-sobre{
+        margin-left: 0;
+        text-align: center;
     }
-    
-    .container-conteudo-sobre{
-        display: flex;
-        align-items: center;
-        justify-content: center;   
-    }
-    
+
     .img-perfil img{
         display: none;
     }
@@ -80,139 +67,90 @@
     .fundo-laranja{
         display: none;
     }
-    
-    .container-textos-sobre{
-        display: block;
-        text-align: center;
-        padding-left: 0;
+
+    .icone-social{
+        width: 50px;
+        height: 50px;
     }
     
-    .lista-sobre li{
-        font-size: 20px;
-        padding-left: 0;
+    .icone-social img{
+        width: 100%;
+        max-width: 20px;
+        height: auto;
     }
-    
-    .section-projetos{
-        text-align: center;
-        padding: 5rem 4rem;
-    }
-    
+
     .container-projetos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding-top: 5rem;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     }
-    
     .projeto {
-        width: 360px;
-        height: 450px;
-        margin: 25px;
+        width: 150%;
+        height: 460px;
     }
     
     .img-projeto{
-        width: 460px;
-        height: 450px;
-        text-align: center;
+        width: 150%;
+        height: 460px;
     }
 
-    .texto-projeto{
-        text-align: center;
-    }
-    
-    .button-links-projetos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-        padding-top: 2rem;
-    }
-
-    .section-skills{
-        display: block;
-        text-align: center;
-        margin-top: 0;
-    }
-    
     .container-skills{
-        display: block;
-        text-align: center;
-        margin-right: 15%;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
-    
+
     .skill{
-        display: block;
-        text-align: center;
-        width: 100%;
-        height: auto;
-        margin-top: 1rem;
+        width: 50%;
+        max-width: 250px;
     }
-    
-    .skill img{
-        text-align: center;
-        width: 30px;
-        height: 30px;
-    }
-    
-    .skill p{
-        font-size: 14px;
-    }
-    
+
     footer p{
         font-size: 10px;
-        text-align: center;
+        font-weight: bold;
     }
 }
 
-/* Para celulares até 360px */
-@media (max-width: 412px){
+@media (max-width: 450px){
 
-    *{
-        padding: 0;
-        margin: 0;
-    }
-
-    header{
-        display: none;
-    }
-    
     .section-home{
-        margin-top: 60%;
-        margin-bottom: 10%;
-        align-items: center;
+        display: block;
+        text-align: center;
+        margin-top: 10rem;
     }
     
     .section-home h1{
-        font-size: 38px;
+        font-size: 42px;
+        opacity: 70%
     }
     
+    .section-home span{
+        color: #FF914D;
+    }
+
     .section-home h2{
         font-size: 30px;
     }
-
+    
     .container-buttons{
         display: block;
         text-align: center;
     }
     
     .btn-contato{
-        padding: 10px 50px;
-        font-size: 18px;
-    }
-    
-    .btn-play{
-        margin-top: 4rem;
-        display: block;
-        text-align: center;
+        padding: 10px 45px;
+        margin-bottom: 4rem;
     }
     
     .btn-play button{
-        margin-left: 38%;
+        width: 70px;
+        height: 70px;
+        margin-left: 1rem;
+    }
+    
+    .btn-play img{
+        width: 30%;
     }
     
     .btn-play p{
-        margin-top: 1rem;
-        font-size: 20px;
-        text-align: center;
+        font-size: 15px;
     }
     
     .img-scroll{
@@ -220,26 +158,20 @@
     }
     
     .section-sobre{
-        margin-top: 0;
-        background-color: #F4F4F4;
-        padding: 5rem 7rem;
+        display: block;
+        text-align: center;
     }
 
-    .container-textos-sobre h2{
-        font-size: 40px;
+    .section-sobre{
+        padding-top: 5rem;
+        padding-bottom: 0;
     }
 
-    .container-textos-sobre h3{
-        padding-top: 0.5rem;
-        font-size: 20px;
+    .container-textos-sobre{
+        margin-left: 0;
+        text-align: center;
     }
-    
-    .container-conteudo-sobre{
-        display: flex;
-        align-items: center;
-        justify-content: center;   
-    }
-    
+
     .img-perfil img{
         display: none;
     }
@@ -247,88 +179,43 @@
     .fundo-laranja{
         display: none;
     }
-    
-    .container-textos-sobre{
-        display: block;
-        text-align: center;
-        padding-left: 0;
+
+    .icone-social{
+        width: 50px;
+        height: 50px;
     }
     
-    .lista-sobre li{
-        font-size: 20px;
-        padding-left: 0;
+    .icone-social img{
+        width: 100%;
+        max-width: 20px;
+        height: auto;
     }
-    
-    .section-projetos{
-        text-align: center;
-        padding: 5rem 4rem;
-    }
-    
+
     .container-projetos{
-        display: block;
-        text-align: center;
+        padding-top: 5rem;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     }
-    
     .projeto {
-        width: 260px;
-        height: 350px;
-        margin: 25px;
+        width: 150%;
+        height: 460px;
     }
     
     .img-projeto{
-        width: 460px;
-        height: 450px;
-        text-align: center;
+        width: 150%;
+        height: 460px;
     }
 
-    .texto-projeto{
-        text-align: center;
-    }
-    
-    .button-links-projetos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-        padding-top: 2rem;
-    }
-
-    .section-skills{
-        display: block;
-        text-align: center;
-    }
-
-    .section-skills h1{
-        text-align: center;
-        font-size: 40px;
-
-    }
-    
     .container-skills{
-        display: block;
-        text-align: center;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
-    
+
     .skill{
-        display: block;
-        text-align: center;
-        width: 100%;
-        height: auto;
-        margin-top: 1rem;
+        width: 50%;
+        max-width: 250px;
     }
-    
-    .skill img{
-        text-align: center;
-        width: 30px;
-        height: 30px;
-    }
-    
-    .skill p{
-        font-size: 14px;
-    }
-    
+
     footer p{
         font-size: 10px;
-        text-align: center;
+        font-weight: bold;
     }
 }
